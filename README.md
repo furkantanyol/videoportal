@@ -4,7 +4,6 @@
 	•	Introduction
 	•	Features
 	•	Installation
-	•	File Structure
 	•	App Flow
 	•	Conclusion
 
