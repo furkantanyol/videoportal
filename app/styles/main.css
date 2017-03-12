@@ -1,0 +1,86 @@
+#video-content{
+  margin: 1.3em;
+  width: 24em;
+  float: left;
+  min-height: 400px;
+  position: relative;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, .2), 0 0px 0px 0 rgba(0, 0, 0, .19) !important;
+  height: 400px;
+}
+
+#video-description{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+#video-element{
+  border: 2px solid lightgrey;
+}
+
+#video-description-row{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#video-container{
+  width: 100%;
+}
+
+#video-text{
+  text-align: center; margin-top: 20px;
+}
+
+#loading{
+  width: 100%;
+}
+
+#video-link{
+  color:black;
+  cursor:pointer;
+}
+#video-link-detail{
+  color:black;
+  cursor:pointer;
+  font-size: 25px;
+}
+
+
+#stars-div{
+  position: relative;
+  top:20px;
+  right:100px;
+  float: left;
+}
+
+#stars-div-read-only{
+  position: relative;
+  top:20px;
+  right:80px;
+  float: left;
+  cursor: none;
+}
+
+#video-description-row{
+  margin-bottom: 50px;
+}
+
+#description-paragraph{
+  font-size:20px;
+}
+
+#rate-video-header{
+  float: left; margin-right: 120px; margin-left:15px;
+}
+
+#your-rating-header{
+  margin-left:15px; float: left; margin-right: 120px
+}
+
+#back-button{
+  font-size: 20px;
+  border-style: none;
+  background-color: white;
+}

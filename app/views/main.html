@@ -1,0 +1,38 @@
+<div class="container" id="videos-page-container">
+  <div class="row" id="header-row">
+    <h5 class="pull-left">Welcome to the Video Portal</h5>
+    <button class="btn btn-danger pull-right" ng-click="logoutUser()">Logout</button>
+  </div>
+  <hr>
+  <div class="row" id="videos-row">
+    <div class='video' ng-repeat="video in videos">
+      <div id="video-content">
+        <div class="container" id="video-container">
+          <div class="row" id="video-text">
+            <a id="video-link" ng-href="#!/{{video._id}}">{{video.name}}</a>
+          </div>
+          <br>
+          <div class="row" id="video-content-row">
+            <video id="video-element" width="100%" height="100%" controls ng-src="http://localhost:3000/{{video.url}}" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+          <br>
+          <div class="row" id="rating-row">
+            <div align="center" star-rating rating="getAverageRating(video.ratings)" read-only="true"></div>
+          </div>
+          <br>
+          <div class="row" id="video-description-row">
+            <p class='text-muted' id="video-description">{{video.description}}</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div align="center" id="loading">
+  <img src="images/loading.gif" alt="Loading…" />
+</div>
