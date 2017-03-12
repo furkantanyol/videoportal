@@ -39,28 +39,28 @@ In the front-end part of the project my aim was to implement a very simple and u
 ## Installation
 
 	•	Pre-requisites:
-	    ⁃  	Client: npm, AngularJS, Grunt, Karma (test)
+	    ⁃   Client: npm, AngularJS, Grunt, Karma (test)
 	    ⁃	Server: NodeJS and npm, express, body-parser, morgan, mongoose, MongoDB
 
 	•	Server Side:
 	    ⁃	Download video_portal_api-master from Crossover. 
 	    ⁃	Create the folder /data in video_portal_api-master.
 	    ⁃	In the /bin folder of your MongoDB directory, from the terminal, run:
-			$ mongod --dbpath /videoportal-api-path/video_portal_api-master/data/
-	    ⁃	In the video portal api path  ./video_portal_api-master :
-	    ⁃	Run $ npm install to download npm packages.
-	    ⁃	Run $ npm start to start the backend API.
-	    ⁃	By Default the backend will start web server on http://localhost:3000/
+			`$ mongod --dbpath /videoportal-api-path/video_portal_api-master/data/`
+	    ⁃	In the video portal api path  `./video_portal_api-master` :
+	    ⁃	Run `$ npm install` to download npm packages.
+	    ⁃	Run `$ npm start` to start the backend API.
+	    ⁃	By Default the backend will start web server on `http://localhost:3000/`
 
 	•	Client Side:
 	    ⁃	Download videoportal from the zip file I uploaded. 
 	    ⁃	In the video portal client path  ./videoportal :
-	    ⁃	Run $ npm install to download npm packages.
-	    ⁃	Run $ bower install to download bower packages.
+	    ⁃	Run `$ npm install` to download npm packages.
+	    ⁃	Run `$ bower install` to download bower packages.
         ⁃	Make sure Access-Control-Allow-Origin' header is present on the requested resource. I am enabling cross-origin resource sharing with the CORS Chrome Extension.
-        ⁃	Test Environment: Run $ grunt test to run unit tests.
-        ⁃	Dev Environment: Run $ grunt serve to start the client app in development mode, by default http://localhost:9000/.
-        ⁃	Prod Environment: Run $ grunt build to build the client app in the dist folder and open index.html with your browser.
+        ⁃	Test Environment: Run `$ grunt test` to run unit tests.
+        ⁃	Dev Environment: Run `$ grunt serve` to start the client app in development mode, by default http://localhost:9000/.
+        ⁃	Prod Environment: Run `$ grunt build` to build the client app in the dist folder and open index.html with your browser.
 ## App Flow
 
 	•	User first enter his/her username and password to login
